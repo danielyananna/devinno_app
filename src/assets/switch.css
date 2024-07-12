@@ -1,0 +1,42 @@
+.details-box-header .switch {
+    width: 80px;
+    height: 32px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    position: relative;
+  }
+  
+  .switch .switch-toggle {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 165, 0);
+    border-radius: 4px;
+    transition: all 0.3s;
+  }
+  
+  .switch span {
+    position: absolute;
+    top: 7px;
+    color: #fff;
+  }
+  
+  .switch span.celsius {
+    left: 8px;
+  }
+  
+  .switch span.farenheit {
+    right: 8px;
+  }
+  
+  .switch-toggle.celsius {
+    transform: translateX(0);
+  }
+  
+  .switch-toggle.farenheit {
+    transform: translateX(100%);
+  }
+  

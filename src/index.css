@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "./assets/error.css";
+@import "./assets/form.css";
+@import "./assets/switch.css";
+@import "./assets/block.css";
+@import "./assets/loader.css";
+@import "./assets/media.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+}

@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+    .current-weather-details-box .weather-details-container {
+      flex-direction: column;
+    }
+  
+    .weather-details-container .details,
+    .weather-details-container .metrices {
+      width: 100%;
+    }
+  
+    .weather-details-container .details {
+      border-right: none;
+      border-bottom: 1px solid #a09aa0;
+      padding-bottom: 15px;
+    }
+  
+    .weather-details-container .metrices {
+      padding-left: 0;
+      padding-top: 15px;
+    }
+
+    .extended-forecasts-container{
+        flex-direction: column;
+    }
+    
+    .extended-forecasts-container .forecast-box{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .container .container_inner {
+        width: 100%;
+    }
+}
+
+ 
+  
